@@ -14,10 +14,10 @@ public class User {
     private String name;
 
     @Column(name = "lastname")
-            private String lastName;
+    private String lastName;
 
     @Column(name = "age")
-            private Byte age;
+    private Byte age;
 
     public User() {
 
